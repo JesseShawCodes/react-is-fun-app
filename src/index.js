@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import Library from './Library.js';
+import Library from './library/Library.js';
 
 const bookList = [
     {
