@@ -21,7 +21,7 @@ class Library extends React.Component {
     }
 
     componentDidMount() {
-        console.log("The component is now mounted");
+        // console.log("The component is now mounted");
         this.setState({loading: true});
         fetch('https://hplussport.com/api/products/order/price/sort/asc/qty/1')
             .then(data => data.json())
@@ -29,7 +29,7 @@ class Library extends React.Component {
     }
 
     componentDidUpdate() {
-        console.log("The component just updated");
+        // console.log("The component just updated");
     }
 
     toggleOpenClosed = () => {
@@ -39,7 +39,7 @@ class Library extends React.Component {
     } 
 
     render() {
-        console.log("Component did Render");
+        // console.log("Component did Render");
         const { books } = this.props;
         return (
             <div>
